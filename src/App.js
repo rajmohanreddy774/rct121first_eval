@@ -6,7 +6,7 @@ import CandidateCard from "./components/CandidateCard";
 
 
 
-const url = "https://json-server-mocker-masai.herokuapp.com/candidatess";
+const url = "https://json-server-mocker-masai.herokuapp.com/candidates";
 const fetchCandidates = (page = 1, order = "ASC", lim = 5) => {
   return axios.get(url, {
     params: {
